@@ -11,6 +11,11 @@ import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ListstudentComponent } from './student/liststudent/liststudent.component';
+import { AddstudentComponent } from './student/addstudent/addstudent.component';
+import { EditstudentComponent } from './student/editstudent/editstudent.component';
+import { ViewstudentComponent } from './student/viewstudent/viewstudent.component';
+
 
 
 @NgModule({
@@ -20,6 +25,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     SidenavComponent,
     HomeComponent,
     DashboardComponent,
+    ListstudentComponent,
+  AddstudentComponent,
+  EditstudentComponent,
+  ViewstudentComponent
    
   ],
   imports: [
