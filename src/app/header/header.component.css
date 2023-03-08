@@ -1,0 +1,53 @@
+nav
+{
+    height: 100%;
+}
+.navbar-brand
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+.side-nav-button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.fa-chevron-down
+{
+    font-size: 20px;
+    color: white;
+} 
+
+.fa-bell
+{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+} 
+.fa-magnifying-glass
+{
+    font-size: 25px;
+    padding-top: 6px;
+    color: orange;
+    padding-left: 33rem;
+}
+.fa-bars
+{
+    font-size: 30px;
+    position: absolute;
+    left: 20rem;
+    top: 1.2rem;
+}
+ #nik
+{
+    width: 25rem;
+    border-radius: 20px;
+    position: absolute;
+    left: 25rem;
+    top: 1rem;
+}
+ 
