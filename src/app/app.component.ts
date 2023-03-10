@@ -8,8 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Project-IMS';
 
+  sideBarOpen=true;
 
+  sideBarToggler(){
+    this.sideBarOpen=!this.sideBarOpen;
+  }
 
-  sideNavStatus:boolean=false
+ 
 
 }
