@@ -1,33 +1,22 @@
-app-header
-{
-    position: fixed;
-    width: 100%;
-    top: 0rem;
-    height: 4rem;
-    z-index: 2;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
 }
-main
-{
-    position: absolute;
-    width: 100%;
-    top: 4rem;
-    z-index: 1;
+:host{
+    display:flex ;
+    flex-direction: column;
+    height: 100%;
+
 }
-app-side-nav
-{
-    position: absolute;
-    width: 250px;
-    white-space: nowrap;
-    overflow-x: hidden;
-    left: 1rem;
-    height: 91vh;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    background-color: aliceblue;
-    border-top: 5px solid white;
+
+mat-drawer{
+    width: 290px;
+    background-color: azure;
 }
-.display-area
-{
-    position: absolute;
-    left: 250px;
-    width: calc(100%-250px);
+
+mat-drawer-container{
+    height:100% ;
 }
